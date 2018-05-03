@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+from django.conf.urls import include
 import os
 import sys
 
@@ -20,3 +21,4 @@ if __name__ == "__main__":
             )
         raise
     execute_from_command_line(sys.argv)
+    
